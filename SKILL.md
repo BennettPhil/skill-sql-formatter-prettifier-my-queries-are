@@ -12,7 +12,7 @@ Implement the idea: sql formatter / prettifier, my queries are always a mess and
 should handle postgres-specific stuff like CTEs and window functions not just basic sql
 
 # Builder Influence
-Use a concise, validation-first workflow derived from the selected builder guidance: --- name: script-heavy-builder description: A builder that generates Agent Skills composed of multiple composable shell scripts following Unix philosophy. version: 0.1.0 license: Apache-2.0 ---
+Use a concise, validation-first workflow derived from the selected builder guidance: --- name: validation-first-builder description: A builder that generates Agent Skills with executable validation as the primary quality gate - smoke tests must pass before any output is finalized. version: 0.3.0 license: Apache-2.0 ---
 
 # Workflow
 1. Clarify assumptions and constraints before implementation.

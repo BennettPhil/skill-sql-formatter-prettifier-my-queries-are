@@ -6,4 +6,4 @@ Idea prompt: sql formatter / prettifier, my queries are always a mess and i want
 should handle postgres-specific stuff like CTEs and window functions not just basic sql
 
 ## Notes
-Generated using builder `script-heavy-builder` (6e2933e7-5d57-45f8-b2a3-fc5ce08a57ea) with fitness 0.150.
+Generated using builder `validation-first-builder` (7a90ee14-d482-4e46-a998-2440659bfb59) with fitness 0.500.
